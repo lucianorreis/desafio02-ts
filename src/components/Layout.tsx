@@ -1,4 +1,4 @@
-import { Footer } from "./Footer"
+
 import { Header } from "./Header/Header"
 
 export const Layout = ({ children }: any) => {
@@ -6,7 +6,6 @@ export const Layout = ({ children }: any) => {
     <>
       <Header />
       { children }
-      <Footer />
     </>
   )
 }
